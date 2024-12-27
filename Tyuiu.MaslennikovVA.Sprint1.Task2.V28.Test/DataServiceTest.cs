@@ -14,7 +14,7 @@ namespace Tyuiu.MaslennikovVA.Sprint1.Task2.V28.Test
             DataService ds = new DataService();
             int x = 0;
             var res = ds.ConvertCelsiusToKelvin(x);
-            Assert.AreEqual(-237, res);
+            Assert.AreEqual(273, res);
         }
     }
 }
