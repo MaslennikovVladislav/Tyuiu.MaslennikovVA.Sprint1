@@ -12,7 +12,7 @@ namespace Tyuiu.MaslennikovVA.Sprint1.Task3.V1.Lib
     {
         public double CylinderVolume(double r, double h)
         {
-            return Math.Round(3.14 * (r * r) * h, 3);
+            return Math.Round(3.141 * (r * r) * h, 3);
         }
     }
 }
